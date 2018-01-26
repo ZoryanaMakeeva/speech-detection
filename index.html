@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="current-weather-details">
+    <ul>
+        <li id="current-humidity">--</li>
+        <li id="current-pressure">--</li>
+        <li id="current-temperature">--</li>
+        <li id="current-wind-speed">--</li>
+    </ul>
+    <button id="getWeather"
+            onload="getWeather()">Get Current Weather!
+    </button>
+</div>
+<p id="weather-summary"></p>
+<script src="script.js"></script>
+</body>
+</html>
